@@ -876,7 +876,7 @@ export class GDBDebugSession extends LoggingDebugSession {
 
         response.body = {
             scopes: [
-                new Scope('Local', this.variableHandles.create(frame), false),
+                new Scope('Local1', this.variableHandles.create(frame), false),
             ],
         };
 
